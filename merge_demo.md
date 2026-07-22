@@ -1,4 +1,3 @@
-London
-Bath
-Manchester
-Leeds
+Apple
+Pear
+Orange
