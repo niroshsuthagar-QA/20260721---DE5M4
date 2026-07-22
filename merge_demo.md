@@ -1,3 +1,3 @@
-Blue
-Green
-Red
+Apple
+Orange
+Kiwi
