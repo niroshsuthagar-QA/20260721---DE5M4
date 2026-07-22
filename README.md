@@ -18,6 +18,8 @@ cat
 - Git:
 git clone <url>
 
+git status
+
 git add <file>
 
 git commit -m "your message here"
