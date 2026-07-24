@@ -24,3 +24,9 @@ def get_books():
     return books
 
 # Get a specific book id (NEEDS INPUT)
+@app.get("/books/{book_id}")
+def get_book_by_id(book_id: int):
+    for book in books:
+        if book["id"] == book_id:
+            return book
+    return {"error":f"Book with id ID {book_id} not found"}
